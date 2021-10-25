@@ -17,20 +17,20 @@ var explosion_sound, lose_sound, win_sound;
 
 function preload(){
   
-  heart1Img = loadImage("assets/heart_1.png");
-  heart2Img = loadImage("assets/heart_2.png");
-  heart3Img = loadImage("assets/heart_3.png");
+  heart1Img = loadImage("heart_1.png");
+  heart2Img = loadImage("heart_2.png");
+  heart3Img = loadImage("heart_3.png");
 
-  shooterImg = loadImage("assets/shooter_2.png");
-  shooter_shooting = loadImage("assets/shooter_3.png");
+  shooterImg = loadImage("shooter_2.png");
+  shooter_shooting = loadImage("shooter_3.png");
 
-  zombieImg = loadImage("assets/zombie.png");
+  zombieImg = loadImage("zombie.png");
 
-  bgImg = loadImage("assets/bg.jpeg");
+  bgImg = loadImage("bg.jpeg");
 
-  explosion_sound = loadSound("assets/explosion.mp3");
-  win_sound = loadSound("assets/win.mp3");
-  lose_sound = loadSound("assets/lose.mp3");
+  explosion_sound = loadSound("explosion.mp3");
+  win_sound = loadSound("win.mp3");
+  lose_sound = loadSound("lose.mp3");
 }
 
 function setup() {
